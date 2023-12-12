@@ -1,0 +1,111 @@
+@media (max-width: 768px) {
+
+
+  .sign-in-page {
+      max-width: 100%; 
+  }
+  .form-input .full-name{
+    flex-direction: column;
+  }
+
+  .sign-in-form {
+      padding: 2rem;
+  }
+  .cancel-logo {
+      top: -100px; 
+  }
+
+  .sign-in-heading {
+      top: -65px; 
+  }
+
+  .form-input {
+      top: -40px; 
+  }
+
+  .btn {
+      top: -30px; 
+      width: 100px;
+      position: absolute;
+      left: 35%;
+   
+  }
+ 
+  .social{
+    
+    margin-top: 10px;
+   max-width:  50px;
+   position: relative;
+   left: 45%;
+   display: flex;
+    border-radius: 50%;
+    
+  }
+  .social span{
+    display: none;
+  }
+.password{
+  position: absolute;
+  left: 10%;
+  font-size: 16px;
+  font-weight: 600;
+}
+  .sign-up-box img {
+  display: none;
+      width: 100%; 
+      height: auto; 
+  }
+  .navbar .brand{
+      display: none;
+  }
+  .search{
+    width: 150px;
+    height: 30px;
+  }
+  .search-icon{
+    height: 30px;
+    width: 50px;
+  }
+  .hero-section{
+    /* width: 100%; */
+    max-height: 236px;
+   
+    background-size: 100%;
+    padding-bottom: 32px;
+    position: relative;
+  }
+ 
+}
+
+@media (min-width:1190px) {
+  
+  .hero-section,
+  .container {
+      max-width: 1500px !important;
+  }
+}
+  @media (min-width:1440px) {
+  .sign-in-form {
+      padding: 30px !important;
+  }
+  
+  .sign-in-header {
+      padding: 17px 0;
+  }
+  .custom-header-conatiner{
+  padding:0 70px
+  
+  }
+          
+}
+@media (max-width:1190px) {
+  
+  .container {
+       width: 100% !important;
+      padding: 0 5% !important;
+      margin: 0 !important;
+      max-width: 100% !important; 
+  }
+}
+
+@media (min-width:820px) and (max-width:1190px) {}
